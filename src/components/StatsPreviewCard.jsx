@@ -3,7 +3,7 @@ import CardImg from '../assets/images/image-header-desktop.jpg'
 
 function StatsPreviewCard() {
   return (
-<div className='bg-[#1b1938] w-[240px] h-[500px] rounded-2xl'>
+<div className='bg-[#1b1938] w-[240px] h-[100%] rounded-2xl'>
         <div className='relative'>
             <img className='rounded-t-2xl' src={CardImg} alt="card image" />
             <div class="absolute inset-0 bg-overlay opacity-40 rounded-t-2xl"></div>  
